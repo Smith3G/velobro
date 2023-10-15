@@ -1,0 +1,18 @@
+
+
+.repair-title {
+  margin-top: 30px;
+}
+
+.prices-wrapper {
+  padding: 20px;
+  display; flex;
+  flex-direction: column;
+}
+.price-wrapper {
+  display: flex;
+
+}
+.price-wrapper:nth-child(odd) {
+  background-color: #f8f8d0;
+}
