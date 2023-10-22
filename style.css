@@ -1,22 +1,26 @@
 
   @font-face {
     font-family: 'Gagalin';
-    src: url('Gagalin.woff');
+    src: url('Fonts/Gagalin.woff');
     font-weight: 400;
     font-style: normal;
     }
-  @font-face {
-	 font-family: 'Open Sans';
-	 src: url(OpenSans-Light.woff);
-	 font-weight: 300;
-	 font-style: normal;
+
+   @font-face {
+ font-family: 'Roboto-Regular';
+ src: url(Fonts/Roboto-Regular.ttf);
+ font-weight: 400;
+ font-style: normal;
 }
-@font-face {
-	font-family: 'Open Sans';
-	src: url(OpenSans-Bold.woff);
-	font-weight: 700;
-	font-style: normal;
+
+   @font-face {
+ font-family: 'Roboto-Bold';
+ src: url(Fonts/Roboto-Bold.ttf);
+ font-weight: 700;
+ font-style: bold;
 }
+
+
  h1,h2,h3 {
   font-family: 'Gagalin';
 
@@ -26,7 +30,7 @@
 body {
 
 
-        font-family: 'OpenSans';
+        font-family: 'Roboto-Regular';
         box-sizing: border-box;
 
 
@@ -95,7 +99,7 @@ body {
         .menu-list-item {
 
         display: block;
-        font-family: 'Open Sans';
+        font-family: 'Roboto-Bold';
         font-size: 18px;
         font-weight: bold;
 
@@ -360,25 +364,15 @@ body {
               margin-bottom: 20px;
               padding: 15px 15px;
               width: calc(50% - 10px);
-              border: 2px solid #ac3f03;
+              border: 2px solid #64625f;
               border-radius: 20px;
-      }
-      .prices {
-        padding: 30px 30px;
-        display: flex;
-        flex-direction: column;
+              background-color: #f7f4ea;
+              box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+                          -23px 0 20px -23px rgba(0, 0, 0, .8),
+                          23px 0 20px -23px rgba(0, 0, 0, .8),
+                          0 0 40px rgba(0, 0, 0, .1) inset;
       }
 
-
-      .option {
-        width: 80%;
-        height: 40px;
-
-      }
-      .price {
-        width: 20%;
-        height: 40px;
-      }
       .main-title, title {
         margin-top: 20px;
       }
@@ -545,7 +539,7 @@ body {
      @media (max-width: 641px) and (orientation: portrait) {
 
       .header {
-        padding: 27px 0 100px;
+        padding: 25px 0 100px;
         background-image: url("bycicle_header_mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -584,13 +578,7 @@ body {
         flex-direction: column;
       }
 
-      .menu {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
+
 
 
 

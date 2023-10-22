@@ -16,3 +16,35 @@
 .price-wrapper:nth-child(odd) {
   background-color: #f8f8d0;
 }
+
+
+.prices {
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.option {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 60px;
+
+
+}
+.price {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 60px;
+}
+.repair-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-repair {
+  display: flex;
+  width: 100%;
+}
