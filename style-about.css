@@ -2,11 +2,36 @@
 
 .main_content {
   background-color: #f8f8d0;
+  display: flex;
+  flex-direction: column;
 }
 
-.content-about {
-        margin-bottom: 20px;
-        padding: 15px 15px;
-        border: 2px solid #ac3f03;
-        border-radius: 20px;
+
+
+.about {
+  padding: 25px 15px;
+  border: 2px solid #64625f;
+  border-radius: 20px;
+  background-color: #f7f4ea;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+              -23px 0 20px -23px rgba(0, 0, 0, .8),
+              23px 0 20px -23px rgba(0, 0, 0, .8),
+              0 0 40px rgba(0, 0, 0, .1) inset;
 }
+
+      .title-about {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      .maps {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+      }
+      .script {
+        display: flex;
+        justify-content: center;
+      }

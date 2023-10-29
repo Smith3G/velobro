@@ -106,7 +106,14 @@ body {
 
 }
         .menu_link1:hover, .menu_link:hover {
-        color: #ff5f07;
+            background-image: linear-gradient(to left, #ffc107, #ff5f07);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+
+
+
+
 }
 
         .main-title {
@@ -120,10 +127,16 @@ body {
         z-index: 1;
       }
       .title {
+
         color: #ffc107;
+
       }
       .title:hover {
-        color: #ff5f07;
+
+        background-image: linear-gradient(to left, #ffc107, #ff5f07);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
       }
 
 
@@ -293,11 +306,12 @@ body {
 
       .advantage-box {
 
+        display: flex;
+        flex-wrap: wrap;
         width: calc(25% - 5px);
         max-height: 100%;
         min-width: 120px;
-        display: flex;
-        flex-wrap: wrap;
+
 
       }
       .icon {
@@ -305,6 +319,8 @@ body {
         margin: auto;
         width: 80%;
       }
+
+
       .advantage-img {
               width: 100%;
 

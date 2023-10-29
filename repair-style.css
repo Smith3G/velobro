@@ -1,28 +1,42 @@
 
 
+
+.repair {
+  background-color: #f8f8d0;
+  padding: 20px 0;
+}
+
 .repair-title {
-  margin-top: 30px;
+  margin-top: 10px;
+
 }
 
 .prices-wrapper {
+  margin-top: 20px;
+  background-image: url(repair.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 20px;
-  display; flex;
-  flex-direction: column;
+
 }
 .price-wrapper {
+
   display: flex;
+  font-weight: 700;
+  color: white;
+
+
 
 }
 .price-wrapper:nth-child(odd) {
-  background-color: #f8f8d0;
+
+  background-color: rgba(248, 248, 208, 0.5);
+
 }
 
 
-.prices {
-  padding: 30px 30px;
-  display: flex;
-  flex-direction: column;
-}
+
 
 
 .option {
@@ -30,6 +44,7 @@
   align-items: center;
   width: 70%;
   height: 60px;
+  padding-left: 10px;
 
 
 }
@@ -39,12 +54,51 @@
   width: 30%;
   height: 60px;
 }
+
+
+
 .repair-wrapper {
   display: flex;
+  
   flex-wrap: wrap;
+  padding: 0 20px;
+  justify-content: space-between;
 }
 
 .our-repair {
   display: flex;
   width: 100%;
+  padding: 10px;
+  background-color: #f7f4ea;
+  border: 2px solid #64625f;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+              -23px 0 20px -23px rgba(0, 0, 0, .8),
+              23px 0 20px -23px rgba(0, 0, 0, .8),
+              0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.repair-wrapper {
+  margin-top: 20px;
+  display: flex;
+
+}
+
+
+.repair-img {
+  background-image: url(abstract_1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+
+}
+.repair-discription {
+  display: flex;
+}
+
+
+
+
+@media (max-width: 641px) and (orientation: portrait) {
+
+
+
 }
