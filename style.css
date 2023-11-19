@@ -483,11 +483,11 @@ body {
         padding: 30px 30px;
            }
       .social-icon_instagram:hover {
-        background-image: url(instagram_orange.svg);
+        background-image: url(camera_orange.svg);
       }
 
            .social-icon_instagram {
-             background-image: url(instagram_black.svg);
+             background-image: url(camera_black.svg);
            }
            .social-icon_vk:hover {
              background-image: url(vkontakte_orange.svg);
