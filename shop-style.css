@@ -3,12 +3,13 @@
  .katalog-wrapper {
    display: flex;
    justify-content: space-between;
-   
+   flex-wrap: wrap;
+
 
  }
  .katalog {
-
-   width: calc(50% - 15px);
+ width: 47%;
+ 
  }
  a h3 {
    color: #ffc107;
@@ -22,6 +23,10 @@
  }
  a img {
    width: 100%;
+ }
+ a img:hover {
+   background-image: linear-gradient(to left, #ffc107, #ff5f07);
+
  }
 
 
