@@ -1,4 +1,6 @@
-  //const
+  document.getElementById("year").innerHTML = new Date().getFullYear();//добавляет год в подвал
+
+	//const
 	let sliders = document.querySelectorAll('.slider');
 	// sliders - список всех элементов с классом class="slider"
 	// sliders[0] — первый элемент, sliders[1] — второй, sliders[i] — i-тый.
@@ -13,9 +15,9 @@
 
 			//const
 			// основная обертка
-			
+
 			const sliderContent = slider.querySelector(".slider-content"); // обертка для контейнера слайдов и контролов
-			console.log(sliderContent);
+
 			const sliderWrapper = slider.querySelector(".slider-content-wrapper"); // контейнер для слайдов
 			const elements = slider.querySelectorAll(".slider-content__item"); // обертка для слайда
 			const sliderContentControls = createHTMLElement("div", "slider-content__controls"); // блок контролов внутри sliderContent
