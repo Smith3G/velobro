@@ -24,6 +24,107 @@
         display: flex;
         justify-content: center;
       }
+
+      .first-master {
+        display: flex;
+
+
+
+      }
+      .fird-master {
+        display: flex;
+      }
+        .our-masters {
+            display: flex;
+            justify-content: space-between;
+
+      }
+      .masters {
+        display: flex;
+        justify-content: center;
+      }
+      .master-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+        padding: 10px;
+        border-radius: 20px;
+
+        background-color: #f7f4ea;
+        border: 2px solid #64625f;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+                    -23px 0 20px -23px rgba(0, 0, 0, .8),
+                    23px 0 20px -23px rgba(0, 0, 0, .8),
+                    0 0 40px rgba(0, 0, 0, .1) inset;
+      }
+      .master {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        border-radius: 50%;
+
+      }
+      .master-discription {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+
+      }
+
+      /* .masters-wrapper {
+        margin-top: 20px;
+
+
+      }
+      .our-masters {
+          display: flex;
+          flex-direction: column;
+          padding: 20px 20px;
+          border: 1px dashed brown;
+      }
+      .master {
+        display: flex;
+        border: 1px solid red;
+        max-width: calc(50% - 5px);
+      }
+      .master-image-1 {
+        display: flex;
+        border: 1px solid orange;
+        background-image:url(master_oleg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 30px;
+        width: 200px;
+
+      }
+      .master-image {
+        display: block;
+      }
+
+      .master-image-2:nth-child(2) {
+        display: flex;
+        border: 1px solid red;
+        background-image:url(master_andrey.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+      .master-image-3 {
+        display: flex;
+        border: 1px solid green;
+        background-image:url(master_nikanor.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+      .master-description {
+        display: flex;
+        flex-direction: column;
+      } */
+
       .maps {
         padding: 20px 0;
         display: flex;
@@ -34,4 +135,29 @@
       .script {
         display: flex;
         justify-content: center;
+      }
+
+
+      @media (max-width: 641px) and (orientation: portrait) {
+
+        .our-masters {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+       }
+
+      .master-wrapper {
+        width: 90%;
+      }
+      .master-wrapper:not(:last-child) {
+        margin-bottom: 15px;
+      }
+
+      .master {
+        width: 200px;
+
+
       }

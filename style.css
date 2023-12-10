@@ -329,7 +329,7 @@ body {
       }
 
 
-      .advantage-title, .repair-title {
+      .advantage-title, .repair-title, .shop-title {
         display: block;
         font-weight: bold;
         text-align: center;
@@ -408,6 +408,13 @@ body {
         padding: 15px 15px;
         display: flex;
         max-width: 1200px;
+        position: relative;
+        z-index: 99;
+
+      }
+      .reviews {
+        position: relative;
+        z-index: 99;
       }
       .yandex {
         width:100%;
@@ -449,6 +456,9 @@ body {
         display: flex;
         justify-content: center;
         background-color: #ffc107;
+        position: relative;
+        z-index: 99;
+
 
       }
       .footer-conteiner {
@@ -594,6 +604,9 @@ body {
       }
       .reviews-wrap {
         flex-direction: column;
+
+
+
       }
 
 
